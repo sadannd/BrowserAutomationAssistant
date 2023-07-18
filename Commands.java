@@ -1,5 +1,3 @@
-package com.automationedge.ps.workflow.steps.begin;
-
 public enum Commands {
     CHROME_LINUX("google-chrome --version"),
     CHROME_WINDOWS_32BIT("cmd.exe /C wmic datafile where name=\"%PROGRAMFILES(X86):\\=\\\\%\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\" get Version /value"),
