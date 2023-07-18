@@ -1,20 +1,3 @@
-package com.automationedge.ps.workflow.steps.begin;
-
-import com.automationedge.audit.enums.AuditLogEntity;
-import com.automationedge.audit.enums.AuditLogLevel;
-import com.automationedge.audit.enums.AuditLogOperation;
-import com.automationedge.audit.model.AuditLog;
-import com.automationedge.enums.FileCategory;
-import com.automationedge.enums.WorkflowUtilOperation;
-import com.automationedge.exception.AEUtilsException;
-import com.automationedge.model.EmailContents;
-import com.automationedge.ps.core.Const;
-import com.automationedge.ps.core.KettleEnvironment;
-import com.automationedge.ps.core.exception.ProcessStudioException;
-import com.automationedge.ps.core.util.StringUtil;
-import com.automationedge.ps.i18n.BaseMessages;
-import com.automationedge.ps.workflow.steps.enums.Browser;
-import com.automationedge.util.ZipUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.Capabilities;
